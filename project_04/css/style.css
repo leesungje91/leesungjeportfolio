@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body {
+    background-color: aliceblue;
+}
+#wrap{
+    width: 100%;
+    min-width: 320px; 
+    max-width: 750px;
+    margin: 0 auto;
+}
+.img {
+    width: 750px;
+    height: auto;
+}

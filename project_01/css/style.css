@@ -1,0 +1,635 @@
+@charset "utf-8";
+#wrap {
+    position: relative;
+    width: 100%;
+    min-width: 1771px;
+}
+.h_in {
+    position: relative;
+    width: 1751px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    display: block;
+    width: 145px;
+    height: 30px;
+    background-image: url(../img/ulsan_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    
+}
+.gnb ul {
+    display: flex;
+}
+.gnb li {
+    padding: 0 69px 0 69px;
+}
+.gnb li a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+.gnb li:hover a {
+    color: #0075bf;
+}
+.utill ul {
+    display: flex;
+}
+.utill li:nth-child(1){
+    margin-right: 18px;
+}
+.utill li a:nth-child(1) {
+    color: #000;
+}
+.utill li a {
+    color: #777;
+}
+.h_languag a {
+    display: block;
+}
+.languag_down a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/languag_down.png);
+    text-indent: -99999px;
+}
+    
+.h_search_open a {
+    display: block;
+    margin-left: 43px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/m-srhIcon.png);
+    text-indent: -99999px;
+}
+
+/* 메인1 */
+.ms_img {
+    position: relative;
+    height: 717px;
+    overflow: hidden;
+}
+.ms_img a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1920px;
+    margin-left: -960px;
+}
+
+/* 본문1 */
+.weather_wrap {
+    position: relative;
+    width: 1182px;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+.weather ul {
+    display: flex;
+    justify-content: center;
+}
+.weather li  {
+    margin-left: 60px;
+}
+.weather li:nth-child(1) {
+    margin-left: 0;
+}
+.weather li a {
+    display: flex;
+}
+.weather_img_01 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 23px;
+    overflow: hidden;
+}
+.weather_img_01 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.weather_local {
+    display: flex;
+    align-items: center;
+}
+.weather_txt h2 {
+    font-size: 28px;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 5px 0 13px;
+    color: #121212;
+}
+.weather_txt p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.weather_txt span {
+    font-weight: lighter;
+    margin-left: 9px;
+    color: #000;
+}
+.weather_img_02 img {
+    position: absolute;
+    top: 60px;
+    left: auto;
+    width: 40px;
+    height: 40px;
+}
+.weather_icon {
+    position: absolute;
+    bottom: -40%;
+    left: -30px;
+    display: flex;
+}
+.weather_icon p {
+    width: 30px;
+    height: 30px;
+}
+.weather_icon p a {
+    display: block;
+}
+.weather_L, .weather_play, .weather_R {
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.weather_L, .weather_R {
+    background-image: url(../img/L.png);
+}
+.weather_play {
+    background-image: url(../img/play.png);
+}
+.weather_R {
+    transform: rotate(180deg);
+    overflow: hidden;
+}
+
+/* 본문2 */
+.best_ulsan {
+    width: 1220px;
+    height: 742px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 199px;
+}
+
+.best_ulsan_list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.best_ulsan_list h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 51px;
+}
+.best_ulsan_photo {
+    float: left;
+    width: 1220px;
+}
+.best_ulsan_photo li {
+    float: left;
+    margin-right: 20px;
+}
+.best_ulsan_photo li:nth-child(5n) {
+    margin-right: 0;
+}
+.best_ulsan_photo li:nth-child(-n+5) {
+    margin-bottom: 48px;
+}
+.best_ulsan_photo a img {
+    display: block;
+    width: 228px;
+    height: 257px;
+}
+.best_ulsan_photo a p {
+    text-align: center;
+    margin-top: 19px;
+    font-size: 18px;
+    color: #000;
+}
+
+/* 본문3 */
+.ulsan_Thema {
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 131px;
+}
+.ulsan_Thema_title h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.ulsan_Thema_list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.ulsan_Thema_L {
+    float: left;
+    margin-right: 10px;
+}
+.ulsan_Thema_L a {
+    display: block;
+    width: 561px;
+    height: 436px;
+}
+.ulsan_Thema_photo {
+    width: 561px;
+    height: 436px;
+    background-image: url(../img/ulsan_Thema_01.png);
+}
+.ulsan_Thema_photo p {
+    text-align: center;
+    line-height: 200px;
+}
+.ulsan_Thema_L p {
+    line-height: 40px;
+}
+.ulsan_Thema_L .ulsan_Thema_txt2 {
+    margin-left: 210px;
+}
+.ulsan_Thema_txt1 {
+    color: #fff;
+    padding-top: 196px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.ulsan_Thema_txt2 {
+    width: 132px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.ulsan_Thema_R {
+    float: left;
+    width: 649px;
+    text-align: center;
+}
+.ulsan_Thema_R li {
+    float: left;
+    margin-bottom: 10px;
+}
+.ulsan_Thema_R p {
+    line-height: 40px;
+}
+.ulsan_Thema_R .ulsan_Thema_txt1 {
+    padding-top: 77px;
+}
+.ulsan_Thema_R .ulsan_Thema_txt2 {
+    margin-left: 92px;
+}
+.ulsan_Thema_photo_01 {
+    width: 320px;
+    height: 213px;
+    background-image: url(../img/ulsan_Thema_02.png);
+    margin-right: 9px;
+}
+.ulsan_Thema_photo_02 {
+    width: 320px;
+    height: 213px;
+    background-image: url(../img/ulsan_Thema_03.png);
+}
+.ulsan_Thema_photo_03 {
+    width: 320px;
+    height: 213px;
+    background-image: url(../img/ulsan_Thema_04.png);
+    margin-right: 9px;
+}
+.ulsan_Thema_photo_04 {
+    width: 320px;
+    height: 213px;
+    background-image: url(../img/ulsan_Thema_05.png);
+}
+
+/* 본문4 */
+.ulsan_festival {
+    position: relative;
+    width: auto;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    background-color: #eeeeee;
+}
+.ulsan_festival_title h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 76px;
+    padding-top: 80px;
+}
+.ulsan_festival_img {
+    width: 251px;
+    height: 301px;
+}
+.ulsan_festival_img img {
+    width: 100%;
+    height: 100%;
+}
+.ulsan_festival_list ul {
+    display: flex;
+}
+.ulsan_festival_list li {
+    margin: 0 10px;
+}
+.ulsan_festival_list a {
+    padding-top: 10px;
+}
+.ulsan_festival_txt01 {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #333;
+}
+.ulsan_festival_txt02 {
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+}
+.ulsan_festival_txt03 {
+    margin-top: 21px;
+    font-size: 15px;
+    color: #555;
+}
+.festival_prev {
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+.festival_prev a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/ulsan_festival_btn_L.png);
+    text-indent: -99999px;
+}
+.festival_next {
+    position: absolute;
+    top: 280px;
+    right: 0;
+}
+.festival_next a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/ulsan_festival_btn_R.png);
+    text-indent: -99999px;
+}
+
+/* 본문5 */
+.ulsan_Board {
+    display: flex;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 98px;
+    margin-bottom: 98px;
+}
+.ulsan_Board_text_01 h2 , .ulsan_Board_text_02 h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.ulsan_Board_list::after {
+    content: ""; 
+    display: block; 
+    clear: both;
+}
+.ulsan_Board_list p {
+    float: left;
+    font-size: 16px;
+    line-height: 29px;
+    color: #111;
+}
+.ulsan_Board_list span {
+    float: right;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.ulsan_Board_text_01 {
+    float: left;
+    width: 582px;
+    margin-right: 55px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+}
+.ulsan_Board_text_02 {
+    float: right;
+    width: 582px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+}
+.ulsan_Board_text_02 ul {
+    float: left;
+}
+.ulsan_Board_txt p {
+    margin-top: 20px;
+}
+.ulsan_Board_txt span {
+    margin-top: 20px;
+}
+.ulsan_Board_text_02 .ulsan_Board_txt span {
+    margin-left: 281px;
+}
+.bb {
+    border-top: 1px solid #777;
+}
+
+/* 경계선 */
+.border {
+    width: 1220px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #777;
+    text-indent: -99999px;
+    margin-bottom: 30px;
+}
+
+/* 본문6 */
+.ulsan_organ {
+    position: relative;
+    width: 1200px;
+    height: 41px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 30px; 
+}
+.ulsan_organ_btn {
+    display: flex;
+    padding-top: 3px;
+}
+.ulsan_organ_btn a img {
+    width: 33px;
+    height: 33px;
+}
+.ulsan_organ_list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}
+.ulsan_organ_list ul {
+    display: flex;
+}
+.ulsan_organ_list img {
+    width: 120px;
+    height: 40px;
+}
+.ulsan_organ_list li:nth-child(1) {
+    width: 120px;
+    height: 40px;
+}
+.ulsan_organ_list li:nth-child(2) {
+    width: 120px;
+    height: 40px;
+    margin-left: 40px;
+}
+.ulsan_organ_list li:nth-child(3) {
+    width: 120px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.ulsan_organ_list li:nth-child(4) {
+    width: 109px;
+    height: 41px;
+}
+.ulsan_organ_list li:nth-child(5) {
+    width: 123px;
+    height: 41px;
+}
+.ulsan_organ_list li:nth-child(6) {
+    width: 122px;
+    height: 41px;
+}
+.ulsan_organ_list li:nth-child(7) {
+    width: 119px;
+    height: 41px;
+}
+.ulsan_organ_list li:nth-child(8) {
+    width: 120px;
+    height: 40px;
+}
+
+/* 푸터1 */
+.f_b {
+    height: 65px;
+    background-color: #0075bf;
+}
+.f_bb {
+    position: relative;
+    width: 1219px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f_text_list {
+    display: flex;
+}
+.f_text_list p {
+    margin-top: 25px;
+}
+.f_text_list p a {
+    font-size: 15px;
+    color: #fff;
+}
+.f_sns_list {
+    float: right;
+}
+.f_text01::after{
+    content: "|";
+    margin: 0 21px;
+    color: #fff;
+}
+.f_text02::after {
+    content: "|";
+    margin: 0 21px;
+    color: #fff;
+}
+.f_sns_list ul {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    display: flex;
+}
+.f_sns_list li {
+    margin-left: 34px;
+    text-indent: -99999px;
+}
+.f_sns_list li:nth-child(1) {
+    width: 15px;
+    height: 28px;
+    background-image: url(../img/facebook.png);
+}
+.f_sns_list li:nth-child(2) {
+    width: 28px;
+    height: 28px;
+    background-image: url(../img/instargrame.png);
+}
+.f_sns_list li:nth-child(3) {
+    width: 29px;
+    height: 20px;
+    background-image: url(../img/youtube.png);
+    margin-top: 4px;
+}
+
+/* 푸터2 */
+.f_c {
+    height: 239px;
+}
+.f_cc {
+    position: relative;
+    width: 1220px;
+    height: 239px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f_logo {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 207px;
+    height: 43px;
+    text-indent: -99999px;
+    background-image: url(../img/ulsan_logo_small.png);
+}
+.f_address {
+    position: absolute;
+    top: 73px;
+    left: 410px;
+}
+.f_address p {
+    font-size: 15px;
+    color: #111;
+    line-height: 2em; 
+}
+.web_acc {
+    position: absolute;
+    top: 76px;
+    right: 0;
+    width: 134px;
+    height: 88px;
+    text-indent: -99999px;
+    background-image: url(../img/web_acc.png);
+
+}

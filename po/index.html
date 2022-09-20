@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>이성제 포트폴리오</title>
+        <link rel="stylesheet" href="css/font_score.css">
+        <link rel="stylesheet" href="css/jquery.fullpage.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="../po/img/L.png">
+        <meta property="og:image" content="../po/img/S.png">
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">
+                <ul>
+                    <li class="on"><a href="">홈</a></li>
+                    <li><a href="sub/project_01.html">[PC 리뉴얼] 울산파인교</a></li>
+                    <li><a href="sub/project_02.html">[PC 리뉴얼] 모던하우스</a></li>
+                    <li><a href="sub/project_03.html">[반응형] 할리스</a></li>
+                    <li><a href="sub/project_04.html">[모바일 리뉴얼 디자인] 디스커버리</a></li>
+                    <li><a href="sub/project_05.html">[상세페이지] 햇반</a></li>
+                    <li><a href="sub/project_06.html">[로고]대한민국 베트남 수교 30주년</a></li>
+                </ul>
+            </div>
+            <div id="container">
+                <div class="section">
+                    <div class="box1 inner">
+                        <!-- 인덱스 본문1 이미지 -->
+                        <img src="img/signage.jpg" alt="">
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="box2 inner">
+                        <!-- 인덱스 본문2 이미지 -->
+                        <img src="img/history.png" alt="">
+                    </div>
+                </div>
+                <div class="section">
+                    <!-- 작품리스트영역. 구조 및 스타일 -->
+                    <h2>WEB RENEWAL & DETAIL</h2>
+                    <div class="box3">
+                        <div class="box3List">
+                            <ul class="b1">
+                                <li class="b3l1">
+                                    <div class="b3text01">
+                                        <h3>1. TOUR ULSAN</h3>
+                                        <p class="tt">울산관광 PC 리뉴얼</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA"><a href="sub/project_01.html">상세설명</a></p>
+                                        <p class="btnA B "><a href="../project_01/index.html" target="_blank">바로가기</a></p>
+                                    </div>
+                                </li>
+                                <li class="b3l2">
+                                    <div class="b3text01">
+                                        <h3>2. Modern House</h3>
+                                        <p class="tt">모던하우스 PC 리뉴얼</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA"><a href="sub/project_02.html">상세설명</a></p>
+                                        <p class="btnA B"><a href="../project_02/index.html" target="_blank">바로가기</a></p>
+                                    </div>
+                                </li>
+                                <li class="b3l3">
+                                    <div class="b3text01">
+                                        <h3>3. HOLLYS</h3>
+                                        <p class="tt">할리스 반응형 리뉴얼</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA"><a href="sub/project_03.html">상세설명</a></p>
+                                        <p class="btnA B"><a href="../project_03/index.html" target="_blank">바로가기</a></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="b2">
+                                <li class="b3l4">
+                                    <div class="b3text01">
+                                        <h3>4. Discovery</h3>
+                                        <p class="tt">디스커버리 모바일 리뉴얼 디자인</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA"><a href="sub/project_04.html">상세설명</a></p>
+                                        <p class="btnA B"><a href="../project_04/index.html" target="_blank">바로가기</a></p>
+                                    </div>
+                                </li>
+                                <li class="b3l5">
+                                    <div class="b3text01">
+                                        <h3>5. HETBAHN</h3>
+                                        <p class="tt">햇반 상세페이지</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA C"><a href="sub/project_05.html">상세설명</a></p>
+                                    </div>
+                                </li>
+                                <li class="b3l6">
+                                    <div class="b3text01">
+                                        <h3>6. anniversary</h3>
+                                        <p class="tt">대한민국 베트남 수교30주년 로고</p>
+                                    </div>
+                                    <div class="b3text02">
+                                        <p class="btnA C"><a href="sub/project_06.html">상세설명</a></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- .box3 -->
+                </div>
+            </div> <!-- container -->
+            <div class="Resources">
+                <figure class="ResourcesImg">
+                    <img src="img/Resources.jpg" alt="" />
+                </figure>
+                <figure class="Resources_x">
+                    <img src="img/Resources_x.jpg" alt="" />
+                </figure>
+            </div>
+        </div> <!-- wrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/jquery.fullpage.min.js"></script>
+        <script>
+            // 전체 페이지의 스크롤을 담당하는 코드
+            $('#container').fullpage({
+                navigation : true,
+            });
+
+            $('.Resources .Resources_x').click(function () {
+                $('.Resources').fadeOut();
+            });
+        </script>
+        <style>
+            /* 전체 페이지 페이저버튼의 글자 */
+            #fp-nav li:nth-child(1) a:before{content: "표지";}
+            #fp-nav li:nth-child(2) a:before{content: "프로필";}
+            #fp-nav li:nth-child(3) a:before{content: "작품리스트";}
+
+            /* 전체 페이지 페이저버튼 중 일부가 화면에 노출이 안되면 좋게다고 했을 때 아래의 스타일 지정하기 
+            {
+                position: absolute;
+                top: -99999px;
+                left: -99999px;
+                width: 0;
+                height: 0;
+                overflow: hidden;
+                opacity: 0;
+            } */
+        </style>
+    </body>
+</html>
